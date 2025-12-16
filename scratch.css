@@ -1,10 +1,9 @@
-/* General styles */
+/* General page styles */
 body {
-    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
-    font-family: 'Trebuchet MS', sans-serif;
-    color: #1f2937; /* Dark font color for readability */
+    background-color: #eef2f7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
     margin: 0;
-    padding: 0;
 }
 
 /* Header */
@@ -19,16 +18,17 @@ header {
 /* Back button */
 .back-button {
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 15px;
+    top: 15px;
     color: white;
     text-decoration: none;
     background-color: #2563eb;
-    padding: 8px 12px;
-    border-radius: 6px;
+    padding: 6px 10px;
+    border-radius: 5px;
 }
+
 .back-button:hover {
-    background-color: #1e3a8a;
+    text-decoration: underline;
 }
 
 /* Intro section (div #1) */
@@ -37,16 +37,16 @@ header {
     padding: 20px;
     margin: 20px auto;
     width: 75%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 /* List section (div #2) */
 .list-section {
-    background-color: #eff6ff;
+    background-color: white;
     padding: 20px;
     margin: 20px auto;
     width: 75%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 /* Image section (div #3) */
@@ -54,8 +54,8 @@ header {
     max-width: 600px;
     width: 100%;
     display: block;
-    margin: 10px auto;
-    border-radius: 10px;
+    margin: 20px auto;
+    border-radius: 8px;
 }
 
 /* Video section */
@@ -64,14 +64,10 @@ header {
     width: 75%;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
-/* Anchor link styling */
+/* Anchor link */
 .anchor-link {
     color: #1d4ed8;
-    font-weight: bold;
-}
-.anchor-link:hover {
-    text-decoration: underline;
 }
