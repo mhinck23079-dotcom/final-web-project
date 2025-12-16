@@ -1,0 +1,77 @@
+/* General styles */
+body {
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #1f2937; /* Dark font color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Back button */
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #2563eb;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.back-button:hover {
+    background-color: #1e3a8a;
+}
+
+/* Intro section (div #1) */
+.intro-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 10px;
+}
+
+/* List section (div #2) */
+.list-section {
+    background-color: #eff6ff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 10px;
+}
+
+/* Image section (div #3) */
+.image-section img {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Video section */
+.video-section {
+    background-color: white;
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Anchor link styling */
+.anchor-link {
+    color: #1d4ed8;
+    font-weight: bold;
+}
+.anchor-link:hover {
+    text-decoration: underline;
+}

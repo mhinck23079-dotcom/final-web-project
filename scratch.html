@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYU Vocal Point – Scratch Page</title>
+    <link rel="stylesheet" href="scratch.css">
+    <style>
+        /* Responsive YouTube video */
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 ratio */
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Tableau responsive */
+        .tableau-section object {
+            width: 100% !important;
+            height: 800px;
+        }
+
+        html { scroll-behavior: smooth; }
+        .back-button:hover { text-decoration: underline; color: #004080; }
+
+        /* Image styling */
+        .image-section img {
+            max-width: 600px;
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BYU Vocal Point</h1>
+    <a href="index.html" class="back-button">← Back to Home</a>
+</header>
+
+<main>
+    <section>
+        <h2 id="about">Why I Love BYU Vocal Point</h2>
+        <p>BYU Vocal Point is an a cappella group known for their creativity, musical precision, and powerful performances. This page celebrates their music and impact.</p>
+    </section>
+
+    <section>
+        <h2>My Favorite Vocal Point Things</h2>
+        <ol>
+            <li>Favorite Songs
+                <ul>
+                    <li>Gratitude</li>
+                    <li>Nearer My God to Thee</li>
+                    <li>Anyone</li>
+                </ul>
+            </li>
+            <li>Favorite Performances
+                <ul>
+                    <li>Stadium of Fire</li>
+                    <li>Music Videos</li>
+                    <li>Live Devotional Performances</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section class="image-section">
+        <img src="images/2509-14 920-2.jpg" alt="BYU Vocal Point">
+    </section>
+
+    <section>
+        <h2>Watch Vocal Point Perform</h2>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/watch?v=Y37Uq_-cFxI" 
+                    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>Jump to a Section</h2>
+        <a href="index.html">Back to Home</a>
+    </section>
+
+    <section class="tableau-section">
+        <h2>Interactive Tableau Visualization</h2>
+        <div class="tableauPlaceholder" id="viz1765493903033" style="position: relative;">
+            <noscript>
+                <a href="#"><img alt="THE VOCAL RANGES OF THE WORLD’S GREATEST SINGERS" 
+                src="https://public.tableau.com/static/images/NW/NWC6TD95R/1_rss.png" style="border: none;" /></a>
+            </noscript>
+            <object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https://public.tableau.com/" />
+                <param name="embed_code_version" value="3" />
+                <param name="path" value="shared/NWC6TD95R" />
+                <param name="toolbar" value="yes" />
+                <param name="static_image" value="https://public.tableau.com/static/images/NW/NWC6TD95R/1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+            </object>
+        </div>
+        <script type="text/javascript">
+            var divElement = document.getElementById('viz1765493903033');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = '800px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </section>
+</main>
+
+</body>
+</html>
